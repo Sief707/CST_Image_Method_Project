@@ -1,0 +1,21 @@
+# CST temporary files
+*.bak
+*.log
+*.tmp
+
+# CST results folders
+Result
+Results
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# MATLAB
+*.asv
+
+# Python
+__pycache__/
+
+# Large exports
+*.raw
