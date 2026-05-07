@@ -1,21 +1,29 @@
-# CST temporary files
-*.bak
-*.log
-*.tmp
+# CST cache/temp
+**/ModelCache/
+**/Temp/
+**/Export/
 
-# CST results folders
-Result
-Results
+# Large CST generated files
+*.fld
+*.vol
+*.pot
+*.cha
+*.ci
+*.dbp
+*.mch
+*.grp
+*.tri
+*.trm
+*.trt
+*.tsp
+
+# MATLAB autosave
+*.asv
 
 # Windows
 Thumbs.db
 Desktop.ini
 
-# MATLAB
-*.asv
-
-# Python
-__pycache__/
-
 # Large exports
-*.raw
+*potential_profile.txt
+*D_Profile.txt
